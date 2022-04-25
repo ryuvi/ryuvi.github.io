@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Github",
+        "url": "www.github.com",
+        "category": "tech"
+    },
+    {
+        "name": "Facebook",
+        "url": "www.facebook.com",
+        "category": "social"
+    },
+    {
+        "name": "Instagram",
+        "url": "www.instagram.com",
+        "category": "social"
+    },
+    {
+        "name": "Gmail",
+        "url": "www.gmail.com",
+        "category": "others"
+    },
+    {
+        "name": "Reddit",
+        "url": "www.reddit.com",
+        "category": "social"
+    },
+    {
+        "name": "Youtube",
+        "url": "www.youtube.com",
+        "category": "social"
+    },
+    {
+        "name": "Vercel",
+        "url": "www.vercel.com",
+        "category": "tech"
+    }
+]

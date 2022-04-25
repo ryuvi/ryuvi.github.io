@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+
+:root {
+    --roboto: 'Roboto', sans-serif;
+    --shadow: 'Shadows Into Light', cursive;
+    --indie: 'Indie Flower', cursive;
+    --square: 'Square Peg', cursive;
+    --ms: 'Ms Madi', cursive;
+}
+
+* {
+    box-sizing: border-box;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    background-color: #000;
+
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+span {
+    color: #f00;
+}
+
+h1 {
+    color: #fff;
+    font-family: var(--square);
+    font-size: 5em;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    margin: 0 2.5em;
+}
+
+
+li {
+    font-family: var(--indie);
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+}
+
+li h1 {
+    color: #fff;
+    font-family: var(--indie);
+    font-size: 1.5em;
+    line-height: 1.75em;
+}
+
+header {
+    margin-bottom: 2em;
+}
+
+hr {
+    border: 1px solid #fff1;
+}
+
+.container {
+    background-color: rgb(17, 17, 17);
+    border-radius: 10px !important;
+    display: flex;
+    height: 75%;
+    width: 75%;
+}
+
+.content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    height: 100%;
+    padding: 1em;
+    width: 75%;
+}
+
+a {
+    color: #fffc;
+    text-decoration: none;
+    transition: color 0.5s, text-decoration 0.5s;
+}
+
+a:hover {
+    color: #f00c;
+    text-decoration: underline;
+}
+
+footer {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+footer #date {
+    font-family: var(--roboto);
+    font-size: 1em;
+    letter-spacing: 0.25em;
+}
+
+.image {
+    background-color: #000;
+    background-image: url('./Black-Star-Wars-Phone-Image.jpg');
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 35%;
+}
