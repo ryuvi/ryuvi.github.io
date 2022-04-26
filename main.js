@@ -7,13 +7,13 @@ setInterval(() => {
     let date = new Date();
     let wkday = ''
     let year = set_extension(date.getFullYear())
-    let month = set_extension(date.getMonth()+1)
+    let month = set_extension(date.getMonth() + 1)
     let day = set_extension(date.getDate())
     let hours = set_extension(date.getHours())
     let minutes = set_extension(date.getMinutes())
     let seconds = set_extension(date.getSeconds())
 
-    switch(date.getDay()) {
+    switch (date.getDay()) {
         case 0:
             wkday = "Sunday";
             break;
@@ -37,29 +37,27 @@ setInterval(() => {
             break;
     }
 
-    let result = `{${wkday}} {${day}/${month}/${year}} {${hours}:${minutes}:${seconds}}`
+    let result = `<span>${wkday}</span> ${day}/${month}/${year} ${hours}:${minutes}:${seconds}`
 
-    data.innerText = result;
+    data.innerHTML = result;
 }, 1000);
 
-fetch('links.json')
+fetch('./data/links.json')
     .then(response => response.json())
     .then(data => {
         let social = document.getElementById('social')
         let tech = document.getElementById('tech')
         let other = document.getElementById('others')
-        
+
         for (let i = 0; i < data.length; i++) {
-            console.log(data[i])
             let li = document.createElement('li')
             let a = document.createElement('a')
             a.setAttribute('href', data[i].url)
             a.innerText = data[i].name
 
             li.appendChild(a)
-            console.log(a)
 
-            switch(data[i].category) {
+            switch (data[i].category) {
                 case 'social':
                     social.appendChild(li)
                     break;
@@ -71,4 +69,18 @@ fetch('links.json')
                     break;
             }
         }
+    })
+
+function getRandomInteger(min, max) {
+    return Math.floor(Math.random() * (max - min)) + min
+}
+
+fetch('./data/thoughs.json')
+    .then(response => response.json())
+    .then(data => {
+        let randNumber = getRandomInteger(0, data.length)
+        let p = document.getElementById('though')
+        console.log(data[randNumber])
+
+        p.innerHTML = `"${data[randNumber].though}" - <span>${data[randNumber].credit}</span>`
     })

@@ -2,7 +2,7 @@
     {
         "name": "Github",
         "url": "www.github.com",
-        "category": "tech"
+        "category": "others"
     },
     {
         "name": "Facebook",
@@ -32,7 +32,7 @@
     {
         "name": "Vercel",
         "url": "www.vercel.com",
-        "category": "tech"
+        "category": "others"
     },
     {
         "name": "Mastodon",
@@ -77,6 +77,6 @@
     {
         "name": "UnixPorn",
         "url": "www.unixporn.github.io/",
-        "category":"social"
+        "category": "social"
     }
 ]

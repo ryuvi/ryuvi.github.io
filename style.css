@@ -35,7 +35,7 @@ span {
 h1 {
     color: #fff;
     font-family: var(--square);
-    font-size: 5em;
+    font-size: 3em;
     letter-spacing: 0.05em;
     text-align: center;
 }
@@ -54,20 +54,32 @@ ul {
 
 li {
     font-family: var(--indie);
-    font-size: 1.5em;
+    font-size: 1.1em;
     letter-spacing: 0.1em;
     line-height: 1.5em;
 }
 
-li h1 {
+.list-title {
     color: #fff;
     font-family: var(--indie);
-    font-size: 1.5em;
-    line-height: 1.75em;
+    font-size: 2.5em !important;
+    line-height: 1em;
 }
 
 header {
-    margin-bottom: 2em;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2em 0;
+}
+
+p {
+    font-family: var(--indie);
+    font-size: 1em;
+    margin-top: 1em;
+    text-align: center;
+    width: 35em;
 }
 
 hr {
@@ -114,8 +126,9 @@ footer {
 
 footer #date {
     font-family: var(--roboto);
-    font-size: 1em;
+    font-size: 0.9em;
     letter-spacing: 0.25em;
+    margin: 2em 0;
 }
 
 .image {
@@ -125,4 +138,36 @@ footer #date {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 35%;
+}
+
+form {
+    margin: 0 1em 0 1em;
+}
+
+form input {
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    font-family: var(--indie);
+    font-size: 1.2em;
+    justify-content: center;
+    letter-spacing: 0.1em;
+    margin: 0 1em;
+    margin-left: 0;
+    outline: none;
+    padding: 0.5em;
+    padding-bottom: 0;
+    width: 15em;
+}
+
+form input:focus {
+    border-bottom: 1px solid #f00;
+    border-radius: 10px;
+}
+
+form label {
+    color: #f00;
+    font-size: 1em;
+    font-weight: bold;
 }
