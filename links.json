@@ -33,5 +33,50 @@
         "name": "Vercel",
         "url": "www.vercel.com",
         "category": "tech"
+    },
+    {
+        "name": "Mastodon",
+        "url": "www.mastodon.social/about",
+        "category": "social"
+    },
+    {
+        "name": "The Verge",
+        "url": "www.theverge.com",
+        "category": "tech"
+    },
+    {
+        "name": "9to5Linux",
+        "url": "www.9to5linux.com/",
+        "category": "tech"
+    },
+    {
+        "name": "Snapdrop",
+        "url": "www.snapdrop.net/#",
+        "category": "tech"
+    },
+    {
+        "name": "Thurrott",
+        "url": "www.thurrott.com/",
+        "category": "tech"
+    },
+    {
+        "name": "Odysee",
+        "url": "www.odysee.com/",
+        "category": "tech"
+    },
+    {
+        "name": "Anchor",
+        "url": "www.anchor.fm/",
+        "category": "others"
+    },
+    {
+        "name": "Monkey Type",
+        "url": "www.monkeytype.com/",
+        "category": "others"
+    },
+    {
+        "name": "UnixPorn",
+        "url": "www.unixporn.github.io/",
+        "category":"social"
     }
 ]

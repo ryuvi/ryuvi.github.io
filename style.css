@@ -120,7 +120,7 @@ footer #date {
 
 .image {
     background-color: #000;
-    background-image: url('./Black-Star-Wars-Phone-Image.jpg');
+    background-image: url('./src/Black-Star-Wars-Phone-Image.jpg');
     background-position: center center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
