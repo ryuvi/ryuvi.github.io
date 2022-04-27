@@ -52,7 +52,7 @@ fetch('./data/links.json')
         for (let i = 0; i < data.length; i++) {
             let li = document.createElement('li')
             let a = document.createElement('a')
-            a.setAttribute('href', data[i].url)
+            a.setAttribute('href', `https://${data[i].url}`)
             a.innerText = data[i].name
 
             li.appendChild(a)
