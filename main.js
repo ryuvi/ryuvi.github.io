@@ -45,9 +45,27 @@ setInterval(() => {
 fetch('./data/links.json')
     .then(response => response.json())
     .then(data => {
-        let social = document.getElementById('social')
-        let tech = document.getElementById('tech')
-        let other = document.getElementById('others')
+        let table = document.getElementById('table')
+        let arr_cat = []
+
+        for (let i = 0; i < data.length; i++) {
+            if (!arr_cat.includes(data[i].category))
+                arr_cat.push(data[i].category)
+        }
+
+
+        for (let i = 0; i < arr_cat.length; i++) {
+            let ul = document.createElement('ul');
+            ul.setAttribute('id', arr_cat[i])
+            let li = document.createElement('li');
+            li.innerHTML = `<h1 class="list-title">${arr_cat[i]}</h1>`
+            ul.appendChild(li)
+            table.appendChild(ul)
+            if (i != arr_cat.length - 1) {
+                let hr = document.createElement('hr')
+                table.appendChild(hr)
+            }
+        }
 
         for (let i = 0; i < data.length; i++) {
             let li = document.createElement('li')
@@ -57,17 +75,7 @@ fetch('./data/links.json')
 
             li.appendChild(a)
 
-            switch (data[i].category) {
-                case 'social':
-                    social.appendChild(li)
-                    break;
-                case 'tech':
-                    tech.appendChild(li)
-                    break;
-                case 'others':
-                    other.appendChild(li)
-                    break;
-            }
+            document.getElementById(data[i].category).appendChild(li)
         }
     })
 
