@@ -1,82 +1,97 @@
 [
     {
-        "name": "Github",
-        "url": "www.github.com",
-        "category": "others"
-    },
-    {
         "name": "Facebook",
         "url": "www.facebook.com",
-        "category": "social"
+        "category": "Social"
     },
     {
-        "name": "Instagram",
-        "url": "www.instagram.com",
-        "category": "social"
-    },
-    {
-        "name": "Gmail",
-        "url": "www.gmail.com",
-        "category": "others"
-    },
-    {
-        "name": "Reddit",
-        "url": "www.reddit.com",
-        "category": "social"
-    },
-    {
-        "name": "Youtube",
-        "url": "www.youtube.com",
-        "category": "social"
-    },
-    {
-        "name": "Vercel",
-        "url": "www.vercel.com",
-        "category": "others"
-    },
-    {
-        "name": "Mastodon",
-        "url": "www.mastodon.social/about",
-        "category": "social"
+        "name": "Github",
+        "url": "www.github.com",
+        "category": "Dev"
     },
     {
         "name": "The Verge",
         "url": "www.theverge.com",
-        "category": "tech"
+        "category": "Tech"
+    },
+    {
+        "name": "Instagram",
+        "url": "www.instagram.com",
+        "category": "Social"
+    },
+    {
+        "name": "Gmail",
+        "url": "www.gmail.com",
+        "category": "Others"
+    },
+    {
+        "name": "Reddit",
+        "url": "www.reddit.com",
+        "category": "Social"
+    },
+    {
+        "name": "Youtube",
+        "url": "www.youtube.com",
+        "category": "Others"
+    },
+    {
+        "name": "Vercel",
+        "url": "www.vercel.com",
+        "category": "Dev"
+    },
+    {
+        "name": "Mastodon",
+        "url": "www.mastodon.Social/about",
+        "category": "Social"
     },
     {
         "name": "9to5Linux",
         "url": "www.9to5linux.com/",
-        "category": "tech"
+        "category": "Tech"
     },
     {
         "name": "Snapdrop",
         "url": "www.snapdrop.net/#",
-        "category": "tech"
+        "category": "Tech"
     },
     {
         "name": "Thurrott",
         "url": "www.thurrott.com/",
-        "category": "tech"
+        "category": "Tech"
     },
     {
         "name": "Odysee",
         "url": "www.odysee.com/",
-        "category": "tech"
+        "category": "Tech"
     },
     {
         "name": "Anchor",
         "url": "www.anchor.fm/",
-        "category": "others"
+        "category": "Others"
     },
     {
         "name": "Monkey Type",
         "url": "www.monkeytype.com/",
-        "category": "others"
+        "category": "Others"
     },
     {
         "name": "UnixPorn",
-        "url": "www.unixporn.github.io/",
-        "category": "social"
+        "url": "unixporn.github.io/",
+        "category": "Others"
+    },
+    {
+        "name": "Twitter",
+        "url": "www.twitter.com",
+        "category": "Social"
+    },
+    {
+        "name": "Surge",
+        "url": "surge.sh/",
+        "category": "Dev"
+    },
+    {
+        "name": "GitLab",
+        "url": "gitlab.com/explore/projects/trending",
+        "category": "Dev"
     }
 ]
