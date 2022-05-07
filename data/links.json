@@ -93,5 +93,10 @@
         "name": "GitLab",
         "url": "gitlab.com/explore/projects/trending",
         "category": "Dev"
+    },
+    {
+	"name": "Wonder How To",
+	"url": "null-byte.wonderhowto.com",
+	"category": "Dev"
     }
 ]
