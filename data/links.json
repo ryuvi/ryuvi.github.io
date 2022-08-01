@@ -1,23 +1,13 @@
 [
     {
-        "name": "Facebook",
-        "url": "www.facebook.com",
-        "category": "Social"
-    },
-    {
         "name": "Github",
         "url": "www.github.com",
         "category": "Dev"
     },
     {
-        "name": "The Verge",
-        "url": "www.theverge.com",
+        "name": "Its FOSS",
+        "url": "https://itsfoss.com/all-blog-posts/",
         "category": "Tech"
-    },
-    {
-        "name": "Instagram",
-        "url": "www.instagram.com",
-        "category": "Social"
     },
     {
         "name": "Gmail",
@@ -45,29 +35,14 @@
         "category": "Social"
     },
     {
-        "name": "9to5Linux",
-        "url": "www.9to5linux.com/",
+        "name": "FOSS Linux",
+        "url": "https://www.fosslinux.com/",
         "category": "Tech"
     },
     {
         "name": "Snapdrop",
         "url": "www.snapdrop.net/#",
         "category": "Tech"
-    },
-    {
-        "name": "Thurrott",
-        "url": "www.thurrott.com/",
-        "category": "Tech"
-    },
-    {
-        "name": "Odysee",
-        "url": "www.odysee.com/",
-        "category": "Tech"
-    },
-    {
-        "name": "Anchor",
-        "url": "www.anchor.fm/",
-        "category": "Others"
     },
     {
         "name": "Monkey Type",
@@ -93,10 +68,5 @@
         "name": "GitLab",
         "url": "gitlab.com/explore/projects/trending",
         "category": "Dev"
-    },
-    {
-	"name": "Wonder How To",
-	"url": "null-byte.wonderhowto.com",
-	"category": "Dev"
     }
 ]
