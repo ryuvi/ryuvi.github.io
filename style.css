@@ -38,8 +38,10 @@ h1 {
 }
 
 main {
+  align-items: center;
   display: flex;
   justify-content: space-between;
+  margin: auto;
   text-align: center;
 }
 

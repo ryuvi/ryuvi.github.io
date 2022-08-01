@@ -5,6 +5,11 @@
         "category": "Dev"
     },
     {
+        "name": "WhatsApp",
+        "url": "web.whatsapp.com",
+        "category": "Social"
+    },
+    {
         "name": "Its FOSS",
         "url": "itsfoss.com/all-blog-posts/",
         "category": "Tech"
