@@ -5,6 +5,11 @@
         "category": "Dev"
     },
     {
+        "name":"Linuxize",
+        "url":"linuxize.com",
+        "category":"Tech"
+    },
+    {
         "name": "WhatsApp",
         "url": "web.whatsapp.com",
         "category": "Social"

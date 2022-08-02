@@ -61,6 +61,7 @@ fetch("./data/links.json")
       table.appendChild(ul);
       if (i != arr_cat.length - 1) {
         let hr = document.createElement("hr");
+        hr.setAttribute("class", "separete-border");
         table.appendChild(hr);
       }
     }
