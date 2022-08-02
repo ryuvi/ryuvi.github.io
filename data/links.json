@@ -5,69 +5,9 @@
         "category": "Dev"
     },
     {
-        "name":"Linuxize",
-        "url":"linuxize.com",
-        "category":"Tech"
-    },
-    {
-        "name": "WhatsApp",
-        "url": "web.whatsapp.com",
-        "category": "Social"
-    },
-    {
-        "name": "Its FOSS",
-        "url": "itsfoss.com/all-blog-posts/",
-        "category": "Tech"
-    },
-    {
-        "name": "Gmail",
-        "url": "www.gmail.com",
-        "category": "Others"
-    },
-    {
-        "name": "Reddit",
-        "url": "www.reddit.com",
-        "category": "Social"
-    },
-    {
-        "name": "Youtube",
-        "url": "www.youtube.com",
-        "category": "Others"
-    },
-    {
-        "name": "Vercel",
-        "url": "www.vercel.com",
+        "name": "GitLab",
+        "url": "gitlab.com/explore/projects/trending",
         "category": "Dev"
-    },
-    {
-        "name": "Mastodon",
-        "url": "www.mastodon.Social/about",
-        "category": "Social"
-    },
-    {
-        "name": "FOSS Linux",
-        "url": "www.fosslinux.com/",
-        "category": "Tech"
-    },
-    {
-        "name": "Snapdrop",
-        "url": "www.snapdrop.net/#",
-        "category": "Tech"
-    },
-    {
-        "name": "Monkey Type",
-        "url": "www.monkeytype.com/",
-        "category": "Others"
-    },
-    {
-        "name": "UnixPorn",
-        "url": "unixporn.github.io/",
-        "category": "Others"
-    },
-    {
-        "name": "Twitter",
-        "url": "www.twitter.com",
-        "category": "Social"
     },
     {
         "name": "Surge",
@@ -75,8 +15,73 @@
         "category": "Dev"
     },
     {
-        "name": "GitLab",
-        "url": "gitlab.com/explore/projects/trending",
+        "name": "Vercel",
+        "url": "www.vercel.com",
         "category": "Dev"
+    },
+
+    {
+        "name": "Gmail",
+        "url": "www.gmail.com",
+        "category": "Others"
+    },
+    {
+        "name": "Monkey Type",
+        "url": "www.monkeytype.com/",
+        "category": "Others"
+    },
+
+    {
+        "name": "UnixPorn",
+        "url": "unixporn.github.io/",
+        "category": "Others"
+    },
+
+    {
+        "name": "Youtube",
+        "url": "www.youtube.com",
+        "category": "Others"
+    },
+
+    {
+        "name": "Mastodon",
+        "url": "www.mastodon.Social/about",
+        "category": "Social"
+    },
+    {
+        "name": "Reddit",
+        "url": "www.reddit.com",
+        "category": "Social"
+    },
+    {
+        "name": "Twitter",
+        "url": "www.twitter.com",
+        "category": "Social"
+    },
+    {
+        "name": "WhatsApp",
+        "url": "web.whatsapp.com",
+        "category": "Social"
+    },
+
+    {
+        "name": "FOSS Linux",
+        "url": "www.fosslinux.com/",
+        "category": "Tech"
+    },
+    {
+        "name": "Its FOSS",
+        "url": "itsfoss.com/all-blog-posts/",
+        "category": "Tech"
+    },
+    {
+        "name":"Linuxize",
+        "url":"linuxize.com",
+        "category":"Tech"
+    },
+    {
+        "name": "Snapdrop",
+        "url": "www.snapdrop.net/#",
+        "category": "Tech"
     }
 ]

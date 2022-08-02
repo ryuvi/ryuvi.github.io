@@ -42,6 +42,16 @@ setInterval(() => {
   data.innerHTML = result;
 }, 1000);
 
+function compare(a, b) {
+  if (a.last_nom < b.last_nom) {
+    return -1;
+  }
+  if (a.last_nom > b.last_nom) {
+    return 1;
+  }
+  return 0;
+}
+
 fetch("./data/links.json")
   .then((response) => response.json())
   .then((data) => {
