@@ -80,6 +80,7 @@ fetch("./data/links.json")
       let li = document.createElement("li");
       let a = document.createElement("a");
       a.setAttribute("href", `https://${data[i].url}`);
+      a.setAttribute("target", "_blank");
       a.innerText = data[i].name;
 
       li.appendChild(a);

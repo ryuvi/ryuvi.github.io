@@ -160,7 +160,7 @@ form input {
   outline: none;
   padding-right: 1em;
   transition: border-bottom 0.5s;
-  width: auto;
+  width: 15em;
 }
 
 .fa-magnifying-glass {

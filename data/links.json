@@ -30,16 +30,14 @@
         "url": "www.monkeytype.com/",
         "category": "Others"
     },
-
+    {
+        "name": "Snapdrop",
+        "url": "www.snapdrop.net/#",
+        "category": "Others"
+    },
     {
         "name": "UnixPorn",
         "url": "unixporn.github.io/",
-        "category": "Others"
-    },
-
-    {
-        "name": "Youtube",
-        "url": "www.youtube.com",
         "category": "Others"
     },
 
@@ -49,18 +47,18 @@
         "category": "Social"
     },
     {
-        "name": "Reddit",
-        "url": "www.reddit.com",
-        "category": "Social"
-    },
-    {
-        "name": "Twitter",
-        "url": "www.twitter.com",
+        "name": "Medium",
+        "url": "www.medium.com/@ryuvi",
         "category": "Social"
     },
     {
         "name": "WhatsApp",
         "url": "web.whatsapp.com",
+        "category": "Social"
+    },
+    {
+        "name": "Youtube",
+        "url": "www.youtube.com",
         "category": "Social"
     },
 
@@ -75,13 +73,13 @@
         "category": "Tech"
     },
     {
-        "name":"Linuxize",
-        "url":"linuxize.com",
+        "name": "Linuxize",
+        "url": "linuxize.com",
         "category":"Tech"
     },
     {
-        "name": "Snapdrop",
-        "url": "www.snapdrop.net/#",
+        "name": "Regexr",
+        "url": "regexr.com/",
         "category": "Tech"
     }
 ]
