@@ -1,85 +1,102 @@
 [
-    {
-        "name": "Github",
-        "url": "www.github.com",
-        "category": "Dev"
-    },
-    {
-        "name": "GitLab",
-        "url": "gitlab.com/explore/projects/trending",
-        "category": "Dev"
-    },
-    {
-        "name": "Surge",
-        "url": "surge.sh/",
-        "category": "Dev"
-    },
-    {
-        "name": "Vercel",
-        "url": "www.vercel.com",
-        "category": "Dev"
-    },
-
-    {
-        "name": "Gmail",
-        "url": "www.gmail.com",
-        "category": "Others"
-    },
-    {
-        "name": "Monkey Type",
-        "url": "www.monkeytype.com/",
-        "category": "Others"
-    },
-    {
-        "name": "Snapdrop",
-        "url": "www.snapdrop.net/#",
-        "category": "Others"
-    },
-    {
-        "name": "UnixPorn",
-        "url": "unixporn.github.io/",
-        "category": "Others"
-    },
-
-    {
-        "name": "Mastodon",
-        "url": "www.mastodon.Social/about",
-        "category": "Social"
-    },
-    {
-        "name": "Netflix",
-        "url": "wwww.netflix.com",
-        "category": "Social"
-    },
-    {
-        "name": "WhatsApp",
-        "url": "web.whatsapp.com",
-        "category": "Social"
-    },
-    {
-        "name": "Youtube",
-        "url": "www.youtube.com",
-        "category": "Social"
-    },
-
-    {
-        "name": "FOSS Linux",
-        "url": "www.fosslinux.com/",
-        "category": "Tech"
-    },
-    {
-        "name": "Its FOSS",
-        "url": "itsfoss.com/all-blog-posts/",
-        "category": "Tech"
-    },
-    {
-        "name": "Linuxize",
-        "url": "linuxize.com",
-        "category":"Tech"
-    },
-    {
-        "name": "Regexr",
-        "url": "regexr.com/",
-        "category": "Tech"
-    }
+	{
+		"name": "Github",
+		"url": "www.github.com",
+		"category": "Dev"
+	},
+	{
+		"name": "GitLab",
+		"url": "www.gitlab.com/explore/projects/trending",
+		"category": "Dev"
+	},
+	{
+		"name": "Surge",
+		"url": "www.surge.sh/",
+		"category": "Tools"
+	},
+	{
+		"name": "Vercel",
+		"url": "www.vercel.com",
+		"category": "Dev"
+	},
+	{
+		"name": "Gmail",
+		"url": "www.gmail.com",
+		"category": "Social"
+	},
+	{
+		"name": "Monkey Type",
+		"url": "www.monkeytype.com/",
+		"category": "Tools"
+	},
+	{
+		"name": "Snapdrop",
+		"url": "www.snapdrop.net/#",
+		"category": "Tools"
+	},
+	{
+		"name": "UnixPorn",
+		"url": "www.unixporn.github.io/",
+		"category": "Social"
+	},
+	{
+		"name": "Kaggle",
+		"url": "www.kaggle.com",
+		"category": "Dev"
+	},
+	{
+		"name": "Mastodon",
+		"url": "www.mastodon.Social/about",
+		"category": "Social"
+	},
+	{
+		"name": "Netflix",
+		"url": "www.netflix.com",
+		"category": "Stream"
+	},
+	{
+		"name": "Star+",
+		"url": "www.starplus.com/pt-br/home",
+		"category": "Stream"
+	},
+	{
+		"name": "Disney+",
+		"url": "www.disneyplus.com/pt-br/home",
+		"category": "Stream"
+	},
+	{
+		"name": "WhatsApp",
+		"url": "web.whatsapp.com",
+		"category": "Social"
+	},
+	{
+		"name": "Youtube",
+		"url": "www.youtube.com",
+		"category": "Stream"
+	},
+	{
+		"name": "FOSS Linux",
+		"url": "www.fosslinux.com/",
+		"category": "News"
+	},
+	{
+		"name": "Its FOSS",
+		"url": "www.itsfoss.com/all-blog-posts/",
+		"category": "News"
+	},
+	{
+		"name": "Linuxize",
+		"url": "www.linuxize.com",
+		"category": "News"
+	},
+	{
+		"name": "Android Police",
+		"url": "www.androidpolice.com",
+		"category": "News"
+	},
+	{
+		"name": "Regexr",
+		"url": "www.regexr.com/",
+		"category": "Tools"
+	}
 ]
